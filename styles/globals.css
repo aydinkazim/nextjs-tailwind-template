@@ -1,3 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: "Oooh Baby", cursive;
+  font-weight: bold;
+  background-color: #ddd;
+}
+
+h2 {
+  text-shadow: 1px 1px 3px rgb(0 0 0 / 100%), 2px 4px 7px rgb(73 64 125 / 35%);
+}
+
+.mobile-height {
+  height: 1300px;
+}
